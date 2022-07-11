@@ -34,8 +34,8 @@ If you want to use this template just:
 2. Replace the $variable
    1. $project: The name of your project (README.md, HISTORY.md, docs/index.rst, docs/conf.py)
    2. $setup_date: The date of the creation of your project (HISTORY.md)
-   3. $YOUR_NAME: Your github username, the one inside your github url (README.md, $YOUR_PACKAGE_NAME/__init__.py, docs/conf.py)
-   4. $YOUR_PACKAGE_NAME: The name of your package/repository (README.md, codecov.yml, $YOUR_PACKAGE_NAME/, $YOUR_PACKAGE_NAME/__init__.py)
+   3. $YOUR_NAME: Your github username, the one inside your github url (README.md, ds_utils/__init__.py, docs/conf.py)
+   4. $YOUR_PACKAGE_NAME: The name of your package/repository (README.md, codecov.yml, ds_utils/, ds_utils/__init__.py)
    5. request: Put the name of your package (README.md)
 3. Add PYPI_USERNAME, PYPI_PASSWORD and CODECOV_TOKEN inside github secret (Setting -> Secret)
 4. Fill the LICENCE
@@ -48,7 +48,7 @@ If you want to use this template just:
 
 <div align="center">
 
-$project
+ds_utils
 ========
 
 ![PyPI](https://img.shields.io/pypi/v/request)
@@ -56,7 +56,7 @@ $project
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/request)
 ![PyPI - License](https://img.shields.io/pypi/l/request)
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/request)
-[![codecov](https://codecov.io/gh/$YOUR_NAME/YOUR_PACKAGE_NAME/branch/master/graph/badge.svg?token=7TyKhWhoVI)](https://codecov.io/gh/$YOUR_NAME/YOUR_PACKAGE_NAME)
+[![codecov](https://codecov.io/gh/kholy/ds_utils/branch/master/graph/badge.svg?token=7TyKhWhoVI)](https://codecov.io/gh/kholy/ds_utils)
 
 </div>
 
@@ -69,13 +69,13 @@ Installation
 Using pip
 
 ```sh
-pip3 install YOUR_PACKAGE_NAME
+pip3 install ds_utils
 ```
 
 or from github
 
 ```sh
-pip3 install -e git://github.com/$YOUR_NAME/YOUR_PACKAGE_NAME@latest
+pip3 install -e git://github.com/kholy/ds_utils@latest
 ```
 
 Usage example
@@ -86,7 +86,7 @@ How can I use your package
 
 ```
 
-For more examples and usage, please refer to the [documentation](https://github.com/$YOUR_NAME/YOUR_PACKAGE_NAME/wiki)
+For more examples and usage, please refer to the [documentation](https://github.com/kholy/YOUR_PACKAGE_NAME/wiki)
 
 Contributor
 -----------
